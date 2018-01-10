@@ -1,6 +1,9 @@
 # Movie-Recommender-System
-In use project, I used Netflix data to recommend movies which are quite similar according to the movies they watched and rated.
-User Collaborative Filtering algorithm is used for this recommender system because the number of users weighs more than number of products. From the NetFlix input file, a user rating matrix was built to represent that which movies were related. Also a co-occurrence matrix was created to represent the relationship between different movies. Then user rating matrix and co-occurence matrix were multiplied to get a merged recommendeder list for users.
+- Used Netflix data as input to recommend movies according to the movies that users watched and rated.
+- Used Collaborative Filtering algorithm for this recommender system because the number of users weighs more than number of products
+- Built a user rating matrix to represent which movies were related
+- Created a co-occurrence matrix to represent the relationship between different movies
+- Multiplied user rating matrix and co-occurrence matrix to get a merged recommender list for users.
+- Implemented 4 MapReduce jobs in Intellij IDEA to do matrix multiplication
 
-In this project, 4 MapReduce jobs were used do matrix multiplication. 
 
